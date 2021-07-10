@@ -1,0 +1,40 @@
+{
+  "name": "token-presale",
+  "version": "1.0.0",
+  "description": "token presale contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobiledev-111-118/token-presale.git"
+  },
+  "keywords": [
+    "token",
+    "presale",
+    "smartcontract"
+  ],
+  "author": "dimitar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mobiledev-111-118/token-presale/issues"
+  },
+  "homepage": "https://github.com/mobiledev-111-118/token-presale#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.1",
+    "hardhat": "^2.4.3"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.2.1-beta.0",
+    "@nomiclabs/hardhat-etherscan": "^2.1.4",
+    "@openzeppelin/contracts": "^4.2.0",
+    "@openzeppelin/contracts-upgradeable": "^4.2.0",
+    "@openzeppelin/test-helpers": "^0.5.12"
+  }
+}
